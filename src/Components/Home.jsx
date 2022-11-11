@@ -7,7 +7,7 @@ const Home = () => {
 
       <div className="container">
         <div className="header">
-          <img src={Toggle} alt="arrow" />
+          <img src={Toggle} alt="Toggle-button" className="toggle-img" />
           <h3>Trending Assets</h3>
         </div>
       </div>

@@ -6,7 +6,16 @@
 }
 
 body{
-  max-height: 500px;
-  max-width: 300px;
+  /* max-height: 500px; */
+  /* max-width: 200px; */
   background: linear-gradient(to left, #141E30, #243B55);
+}
+
+.header{
+  /* display: grid; */
+}
+
+.toggle-img{
+  /* height: 50px; */
+  /* width: 50px; */
 }
