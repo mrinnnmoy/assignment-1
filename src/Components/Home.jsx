@@ -2,9 +2,9 @@ import React from "react";
 import { BiLogIn } from "react-icons/bi";
 import BTC from "../img/BTC.png";
 import ETH from "../img/ETH.png";
-import SOL from "../img/SOL.png";
+import SOL from "../img/SOL.jpg";
 import BUSD from "../img/BUSD.png";
-import SHIB from "../img/SHIB.png";
+import SHIB from "../img/SHIB.jpg";
 
 const Home = () => {
   return (
@@ -18,9 +18,9 @@ const Home = () => {
       {/* Assets */}
       <div className="tokens">
 
-        {/* Asset-1 */}
-        <div className="token-1">
-          <img src="" alt="bitcoin" className="token-img" />
+        {/* Token-1 */}
+        <div className="token-box">
+          <img src={BTC} alt="bitcoin" className="token-img" />
           <p className="token-name">Bitcoin (BTC)</p>
           <div className="token-price">
             <p className="current-price">$31,812.80</p>
@@ -37,9 +37,9 @@ const Home = () => {
           <p>Popular pairs</p>
         </div>
 
-        {/* Asset-2 */}
-        {/* <div className="token-2">
-          <img src="" alt="solana" className="token-img" />
+        {/* Token-2 */}
+        <div className="token-box">
+          <img src={SOL} alt="solana" className="token-img" />
           <p className="token-name">Solana (SOL)</p>
           <div className="token-price">
             <p className="current-price">$32.83</p>
@@ -54,11 +54,11 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div> */}
+        </div>
 
-        {/* Asset-3 */}
-        {/* <div className="token-3">
-          <img src="" alt="Eth" className="token-img" />
+        {/* Token-3 */}
+        <div className="token-box">
+          <img src={ETH} alt="Eth" className="token-img" />
           <p className="token-name">ETHEREUM (ETH)</p>
           <div className="token-price">
             <p className="current-price">$1466.45</p>
@@ -73,11 +73,11 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div> */}
+        </div>
 
-        {/* Asset-4 */}
-        {/* <div className="token-4">
-          <img src="" alt="BUSD" className="token-img" />
+        {/* Token-4 */}
+        <div className="token-box">
+          <img src={BUSD} alt="BUSD" className="token-img" />
           <p className="token-name">Binance USD (BUSD)</p>
           <div className="token-price">
             <p className="current-price">$1.00</p>
@@ -92,11 +92,11 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div> */}
+        </div>
 
-        {/* Asset-5 */}
-        {/* <div className="token-5">
-          <img src="" alt="SHIB" className="token-img" />
+        {/* Token-5 */}
+        <div className="token-box">
+          <img src={SHIB} alt="SHIB" className="token-img" />
           <p className="token-name">Shiba Inu (SHIB)</p>
           <div className="token-price">
             <p className="current-price">$0.00000001948</p>
@@ -111,7 +111,7 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div> */}
+        </div>
 
       </div>
     </div>

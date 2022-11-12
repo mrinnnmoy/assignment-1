@@ -11,9 +11,15 @@
 }
 
 body {
-  margin-top: 7.5rem;
+  width: 97.5vw;
+  margin-top: 4.5rem;
+  margin-left: 1rem;
   padding: 2rem;
   background: linear-gradient(to left, #141E30, #243B55);
+}
+
+.home {
+  height: 75vh;
 }
 
 .header {
@@ -24,15 +30,41 @@ body {
   width: 12.5vw;
 }
 
-.toggle-icon{
+.toggle-icon {
   color: #FF33FC;
   transform: scale(1.5);
   margin-top: 10px;
 }
 
-.header-title{
+.header-title {
   font-size: 20px;
   color: whitesmoke;
   margin-left: 12.5px;
   margin-top: 7px;
+}
+
+.tokens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 65.4vh;
+  margin-top: 25px;
+  border-radius: 40px;
+}
+
+/* Token-1 */
+.token-box {
+  display: grid;
+  place-items: center;
+  width: 17.5vw;
+  height: 60vh;
+  margin-top: 36px;
+  border-radius: 40px;
+  background: #141E30;
+}
+
+.token-img {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
 }
