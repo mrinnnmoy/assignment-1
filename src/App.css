@@ -6,8 +6,8 @@
 }
 
 body{
-  /* max-height: 500px; */
-  /* max-width: 200px; */
+  max-height: 90%;
+  max-width: 90%;
   background: linear-gradient(to left, #141E30, #243B55);
 }
 
