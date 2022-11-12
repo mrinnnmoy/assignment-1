@@ -38,7 +38,7 @@ const Home = () => {
         </div>
 
         {/* Asset-2 */}
-        <div className="token-2">
+        {/* <div className="token-2">
           <img src="" alt="solana" className="token-img" />
           <p className="token-name">Solana (SOL)</p>
           <div className="token-price">
@@ -54,10 +54,10 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div>
+        </div> */}
 
         {/* Asset-3 */}
-        <div className="token-3">
+        {/* <div className="token-3">
           <img src="" alt="Eth" className="token-img" />
           <p className="token-name">ETHEREUM (ETH)</p>
           <div className="token-price">
@@ -73,10 +73,10 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div>
+        </div> */}
 
         {/* Asset-4 */}
-        <div className="token-4">
+        {/* <div className="token-4">
           <img src="" alt="BUSD" className="token-img" />
           <p className="token-name">Binance USD (BUSD)</p>
           <div className="token-price">
@@ -92,10 +92,10 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div>
+        </div> */}
 
         {/* Asset-5 */}
-        <div className="token-5">
+        {/* <div className="token-5">
           <img src="" alt="SHIB" className="token-img" />
           <p className="token-name">Shiba Inu (SHIB)</p>
           <div className="token-price">
@@ -111,7 +111,7 @@ const Home = () => {
             <img src="" alt="binance" className="pair-3" />
           </div>
           <p>Popular pairs</p>
-        </div>
+        </div> */}
 
       </div>
     </div>
