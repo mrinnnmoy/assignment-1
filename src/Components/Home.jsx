@@ -1,5 +1,4 @@
 import React from "react";
-// import Toggle from "../img/toggle-arrow.svg";
 
 const Home = () => {
   return (
