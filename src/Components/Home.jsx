@@ -1,11 +1,17 @@
 import React from "react";
+import { BiLogIn } from "react-icons/bi";
+import BTC from "../img/BTC.png";
+import ETH from "../img/ETH.png";
+import SOL from "../img/SOL.png";
+import BUSD from "../img/BUSD.png";
+import SHIB from "../img/SHIB.png";
 
 const Home = () => {
   return (
     <div className="home">
 
       <div className="header">
-        {/* Icon */}
+        <BiLogIn className="toggle-icon" />
         <p className="header-title">Trending Assets</p>
       </div>
 

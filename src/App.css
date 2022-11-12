@@ -1,21 +1,7 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
-  max-height: 90%;
-  max-width: 90%;
   background: linear-gradient(to left, #141E30, #243B55);
-}
-
-.header{
-  /* display: grid; */
-}
-
-.toggle-img{
-  /* height: 50px; */
-  /* width: 50px; */
 }
