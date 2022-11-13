@@ -63,8 +63,19 @@ body {
   background: #141E30;
 }
 
+.token-header{
+  display: flex;
+}
+
+.token-orbe{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #000428; 
+}
+
 .token-img {
-  height: 125px;
-  width: 125px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }

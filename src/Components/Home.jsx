@@ -20,7 +20,10 @@ const Home = () => {
 
         {/* Token-1 */}
         <div className="token-box">
-          <img src={BTC} alt="bitcoin" className="token-img" />
+          <div className="token-header">
+            <div className="token-orbe"></div>
+            <img src={BTC} alt="bitcoin" className="token-img" />
+          </div>
           <p className="token-name">Bitcoin (BTC)</p>
           <div className="token-price">
             <p className="current-price">$31,812.80</p>
@@ -39,7 +42,10 @@ const Home = () => {
 
         {/* Token-2 */}
         <div className="token-box">
-          <img src={SOL} alt="solana" className="token-img" />
+          <div className="token-header">
+            <div className="token-orbe"></div>
+            <img src={SOL} alt="solana" className="token-img" />
+          </div>
           <p className="token-name">Solana (SOL)</p>
           <div className="token-price">
             <p className="current-price">$32.83</p>
@@ -58,7 +64,10 @@ const Home = () => {
 
         {/* Token-3 */}
         <div className="token-box">
-          <img src={ETH} alt="Eth" className="token-img" />
+          <div className="token-header">
+            <div className="token-orbe"></div>
+            <img src={ETH} alt="Eth" className="token-img" />
+          </div>
           <p className="token-name">ETHEREUM (ETH)</p>
           <div className="token-price">
             <p className="current-price">$1466.45</p>
@@ -77,7 +86,10 @@ const Home = () => {
 
         {/* Token-4 */}
         <div className="token-box">
-          <img src={BUSD} alt="BUSD" className="token-img" />
+          <div className="token-header">
+            <div className="token-orbe"></div>
+            <img src={BUSD} alt="BUSD" className="token-img" />
+          </div>
           <p className="token-name">Binance USD (BUSD)</p>
           <div className="token-price">
             <p className="current-price">$1.00</p>
@@ -96,7 +108,10 @@ const Home = () => {
 
         {/* Token-5 */}
         <div className="token-box">
-          <img src={SHIB} alt="SHIB" className="token-img" />
+          <div className="token-header">
+            <div className="token-orbe"></div>
+            <img src={SHIB} alt="SHIB" className="token-img" />
+          </div>
           <p className="token-name">Shiba Inu (SHIB)</p>
           <div className="token-price">
             <p className="current-price">$0.00000001948</p>
